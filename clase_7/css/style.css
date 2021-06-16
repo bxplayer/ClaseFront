@@ -1,0 +1,33 @@
+header{
+    background-color: #E6E6E6;
+    text-align: center;
+}
+
+
+h1,h2{
+    background-color: #C4C4C4;
+    color:#005677;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    line-height: 40px;    
+}
+
+main{
+    margin: 0 auto;
+    width: 80%;
+}
+
+ul li{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.no-bullets{
+    list-style: none;
+}
+
+footer{
+    background-color: #005677;
+    color:white;
+    text-align: center;
+}
