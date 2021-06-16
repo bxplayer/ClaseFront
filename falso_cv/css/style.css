@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,400&display=swap');
+
+*{
+    margin: 0px;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+header{
+    background-image: url('../img/patron.jpg');
+    background-size: cover;    
+    height: 200px;
+}
+
+header img{
+    margin:20px;    
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    line-height: 40px;
+}
+
+nav{
+    background-color: #EEEEEE;
+    line-height: 40px;    
+}
+
+main{
+    width: 80%;
+    margin:20px auto;
+}
+section{
+    margin-bottom: 20px;
+}
+
+section p{
+    line-height: 40px; 
+}
+
+footer{
+    background-color: #EEEEEE;
+    line-height: 40px;
+}
+footer ul{    
+    margin: 5px auto;
+}
+footer ul li{
+    display: inline-block;        
+}
