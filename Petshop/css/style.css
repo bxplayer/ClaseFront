@@ -1,3 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
 body{
-    background-color: blue;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 0px;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+#pre_header, #post_footer{
+    background-color: black;
+    color:#FFF;
+    font-size:14px;
+    line-height: 26px;
+}
+
+
+
+/*Header*/
+header section{
+    background-color: #F0A83E;
+}
+
+header nav a{
+    color: white;
+}
+
+/*Banner*/
+section#banner{
+    background-image: url('../img/bowl-and-pet-daities-on-green-background\ 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+section#banner h2{
+    background-color: white;
+}
+section#banner a{
+    background-color: #F0A83E;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/*Main*/
+main{
+    width: 80%;
+    margin:0px auto;
+    text-align: center;
+}
+
+main h5{
+    color:#F0A83E;
+}
+
+/*Footer*/
+footer{
+    background-color: #3C2313;
+    color: white
+}
+footer #suscribite{
+    background-color: #F0A83E;    
+}
+
+footer #post_footer{
+    text-align: center;
 }
