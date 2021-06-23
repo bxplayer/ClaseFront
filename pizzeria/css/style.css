@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+*{    
+    font-family: 'Roboto', sans-serif;
+    margin:0px;
+    padding:0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E5E5;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 100vh;
+}
+
+ul{
+    list-style: none;
+    font-size: 16px;
+}
+ul a{
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+header, footer{
+    background-color: #222222;
+    color: white;
+    display: flex; 
+    justify-content: space-between; 
+    padding: 8px;
+}
+
+.logo{    
+    display: flex; 
+    align-items: center;
+}
+
+header h1 span:nth-child(1),footer h1 span:nth-child(1){
+    color:green;
+}
+
+header h1 span:nth-child(2),footer h1 span:nth-child(2){
+    color:red;
+}
+
+header nav ul {
+    display: flex;   
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: center;    
+    width: 300px;   
+    height: 100%;  
+}
+
+/*Main*/
+main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;    
+}
+
+main div.delivery{
+    background-image: url('../img/delivery.jpg');
+    
+}
+
+
+main div h2{
+    color:red;
+    margin: 8px;
+}
+
+
+main div.delivery,main div.podio{
+    width: 490px;
+    height: 350px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+main .top5{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 
+main div h2 span{
+    color: whitesmoke;
+}
+
+main .podio{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .top5{    
+    display: flex;    
+    justify-content: space-between; 
+    align-content: center;
+}
+
+
+ */
+
+/*footer*/
+footer nav ul {
+    display: flex;   
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: center;    
+}
