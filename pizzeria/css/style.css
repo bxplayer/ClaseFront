@@ -36,6 +36,10 @@ header, footer{
     align-items: center;
 }
 
+header h1{
+    font-size: 28px;
+    margin-left:5px;
+}
 header h1 span:nth-child(1),footer h1 span:nth-child(1){
     color:green;
 }
@@ -72,18 +76,42 @@ main div h2{
     margin: 8px;
 }
 
+main div h2 span{
+    color:white;
+}
 
 main div.delivery,main div.podio{
+    box-sizing: border-box;
     width: 490px;
     height: 350px;
     background-color: white;
     border-radius: 5px;
+    padding: 8px;
 }
 
+main .podio h2{
+    text-align: center;
+}
 main .top5{
     display: flex;
     justify-content: space-between;
+    width: 80%;
+    margin:0 auto;
+    justify-content: space-around;
+    align-content: space-between;  
+    
 }
+
+
+
+main .top5 h3{
+    margin-bottom: 10px;    
+}
+
+main .top5 ul{
+    line-height: 30px; 
+}
+
 
 /* 
 main div h2 span{
@@ -110,6 +138,9 @@ footer nav ul {
     display: flex;   
     flex-direction: column;
     justify-content: space-around;
-    align-content: stretch;
-    align-items: center;    
+    line-height: 30px; 
+}
+footer h1{
+    font-size: 20px;
+    margin-left:5px;
 }
