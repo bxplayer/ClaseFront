@@ -5,54 +5,104 @@ body{
     margin: 0px 0px;
 }
 
+a{
+    text-decoration: none;
+}
+
 ul{
+    display: flex;
     list-style: none;
     padding: 0px;
 }
 
-ul li{
-    display: inline-block;
-}
 
-#pre_header, #post_footer{
+#pre_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: black;
     color:#FFF;
-    font-size:14px;
-    line-height: 26px;
+    font-size:14px;    
+    gap:10px;
 }
 
+#pre_header ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
 
 
 /*Header*/
-header section{
+header #header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #F0A83E;
 }
 
-header nav a{
+header #header ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;    
+}
+
+
+header #header nav a{
     color: white;
 }
 
+header > div{
+    padding: 0 10px;
+}
+
+#header div{
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    gap:5px;
+}
+
+#header div span{
+    color: black;
+}
+
+#header div img{
+    height: 20px;
+}
+
+
 /*Banner*/
-section#banner{
+div#banner{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
     background-image: url('../img/bowl-and-pet-daities-on-green-background\ 1.png');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 409px;
+    margin-bottom: 10px;
+    padding: 0 20px;
 }
 
-section#banner h2{
+
+div#banner h2{
     background-color: white;
+    padding: 8px 5px;
 }
-section#banner a{
+div#banner a{
     background-color: #F0A83E;
     color: white;
     text-decoration: none;
     font-size: 14px;
+    padding: 10px 15px;
 }
 
 /*Main*/
 main{
-    width: 80%;
+    width: 60%;
     margin:0px auto;
     text-align: center;
 }
@@ -61,15 +111,45 @@ main h5{
     color:#F0A83E;
 }
 
+main section > div{
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+main ul{    
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
 /*Footer*/
 footer{
     background-color: #3C2313;
-    color: white
+    color: white;    
 }
 footer #suscribite{
-    background-color: #F0A83E;    
+    display: flex;    
+    align-items: center;
+    background-color: #F0A83E;  
+    gap:10px;
+    padding: 0 20px;  
 }
 
 footer #post_footer{
     text-align: center;
+}
+
+footer ul{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+#post_footer{
+    text-align: center;
+    background-color: black;
+    color:#FFF;
+    font-size:14px;    
+    gap:10px;
 }

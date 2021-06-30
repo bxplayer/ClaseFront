@@ -25,14 +25,14 @@ main{
 }
 
 #contenedor_cards{
-    
+    display: flex;
+    align-content: space-between;
 }
 .card{
     background-color: #F3F3F3;
     position: relative;    
     display: inline-block; 
-    width:300px;    
-    margin:150px 50px;  
+    width:300px;        
     z-index: -1px;  
     padding-bottom: 20px;
 }
@@ -101,3 +101,38 @@ footer{
     bottom:0px;
     width:100%;
 }
+
+@media (min-width: 481px) and (max-width: 768px) {
+    body{
+        background-color: aqua;
+    }
+    
+    #contenedor_cards{
+        padding: 15px 0px;
+        display: flex;
+        justify-content: center;
+        align-content: space-between;
+        align-items: space-between; 
+        flex-wrap: wrap;       
+        gap: 10px;
+        z-index: -1;
+    }
+}
+
+@media (max-width: 480px){
+    body{
+        background-color: brown;
+    }
+
+    #contenedor_cards{
+        padding: 15px 0px;
+        display: flex;
+        justify-content: center;
+        align-content: stretch;
+        align-items: space-between;
+        flex-direction: column;
+        gap: 10px;
+        z-index: -1;
+    }
+}
+
