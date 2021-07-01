@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
 
+
+/*GENERALES*/
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0px 0px;
 }
 
+h4,h5{
+    margin: 8px;
+}
 a{
     text-decoration: none;
 }
@@ -14,6 +19,23 @@ ul{
     list-style: none;
     padding: 0px;
 }
+
+
+input{
+    padding: 8px;
+    border-radius: 8px;
+    border:none;
+}
+
+button{
+    border-radius: 8px;
+    border: none;
+    color:white;
+    padding: 8px;        
+}
+/*Fin GENERALES*/
+
+
 
 
 #pre_header{
@@ -48,8 +70,12 @@ header #header ul{
 }
 
 
-header #header nav a{
+header #header a{
     color: white;
+}
+
+header #header > a{
+    display: none;
 }
 
 header > div{
@@ -123,6 +149,19 @@ main ul{
     gap:10px;
 }
 
+main .destacados{    
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+main .destacados div{
+    background-color: #FBFAF6;
+}
+
+main input{
+    background-color: #3C2313;
+}
 /*Footer*/
 footer{
     background-color: #3C2313;
@@ -146,6 +185,15 @@ footer ul{
     gap:20px;
 }
 
+
+#suscribite{
+
+}
+
+#suscribite button{
+    
+    background-color: #3C2313;
+}
 #post_footer{
     text-align: center;
     background-color: black;
@@ -153,3 +201,57 @@ footer ul{
     font-size:14px;    
     gap:10px;
 }
+
+
+/*Break*/
+
+@media (max-width: 480px){
+    #pre_header{
+        display:none;
+    }
+
+    header #header{
+        flex-wrap: wrap;                
+    }
+    header #header > div{
+        font-size: 0.5rem;
+    }
+    header #header > div img{
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+
+    #header nav{
+        flex-direction: column;
+        display: none;
+    }
+
+    header #header > a{
+        display: initial;
+    }
+
+
+    div#banner{
+        align-items: center;
+    }
+
+    section h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    section > img{
+        height: 6rem;
+    }
+
+    footer #suscribite{
+        flex-direction: column;
+        gap:10px;        
+    }
+    footer ul{
+        flex-direction: column;        
+        align-items: center;
+    }
+}
+
+/*Fin Break*/

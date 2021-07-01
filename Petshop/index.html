@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Petshop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -24,7 +25,9 @@
                 <h1><span>Front</span> Cat&Dog</h1>
                 <img src="img/Dog.png" alt="Cat">
             </div>
+            <a href="" id="menu_hamburguesa"><i class="fas fa-hamburger"></i></a>
             <nav>
+                
                 <ul>
                     <li>
                         <img src="img/pawprint_icono.png" alt="icono">
@@ -43,6 +46,7 @@
                         <a href="">Contactanos</a>
                     </li>
                 </ul>
+                
             </nav>
         </div>
     </header>
@@ -84,11 +88,26 @@
             </div>
 
             <h3>Contáctanos</h3>
+            <form>
+                <input type="text" placeholder="Nombre y Apellido">
+                <input type="text" placeholder="Ingresá tu correo electronico">
+                <input type="text" placeholder="Teléfono">
+                <div>
+                    <button class="resetear">Resetear</button>
+                    <button>Enviar</button>
+                </div>
+            </form>
         </section>
     </main>
     <footer>
-        <div id="suscribite">            
-            <img src="img/enviar-correo.png" alt="enviar correo"><span>Suscríbete para más novedades</span>
+        <div id="suscribite">    
+            <div>
+                <img src="img/enviar-correo.png" alt="enviar correo"><span>Suscríbete para más novedades</span>
+            </div> 
+            <div>     
+                <input type="text" placeholder="Ingresá tu correo electronico">
+                <button>Suscribirme</button>
+            </div>  
         </div>
         <ul>
             <li><img src="img/localidad.png" alt="localidad">Localidad</li>
