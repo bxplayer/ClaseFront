@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300&display=swap');
+
+*{
+    font-family: 'Karla', sans-serif;
+    margin:0px;
+}
+
+input, select{
+    border: 1px solid black;
+    padding: 16px;
+    font-size: 20px;
+}
+
+h2{
+    font-size: 72px;
+}
+
+button{
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 0;
+    border:none;
+    width: 100%;
+}
+
+
+.back-color-verde{
+    background-color: #1CD1B0;
+    
+}
+
+
+.back-color-gris{
+    background-color: #888888;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 15px;
+    width: 100%;
+}
+
+#pre_header{
+    font-size: 11px;    
+    padding: 3px 8px;
+    background-color: #1CD1B0;
+}
+#logo{
+    background-color: #00669F;
+    padding: 3px 8px;
+    position: sticky;
+    top:0px;    
+    line-height: 70px;
+    z-index: 2px;
+    display: flex;
+    flex-direction: row;
+    color: floralwhite;    
+}
+
+#logo img{
+    padding-top: 4px;    
+    width: 70px;
+}
+
+main{
+    width: 620px;
+    margin:0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+}
+
+form fieldset{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: none;
+}
+
+form fieldset legend{
+    font-size: 72px;
+    padding: 20px 0;
+}
+
+form fieldset p{
+    font-size: 20px;
+    text-align: center;
+}
+
+form fieldset p a{
+    color: #00669F;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #00669F;
+    color:white;
+    font-size: 14px;
+    line-height: 40px;
+    padding: 3px 8px;
+    position: fixed;
+    bottom:0px;
+    width:100%;
+    text-align: center;
+}

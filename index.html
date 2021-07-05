@@ -9,83 +9,104 @@
 </head>
 <body>
     <header>
-        <h1>Infrontend</h1>
+        <h1>infrontend</h1>
         <nav>
-            <li><a href="Petshop/">AMÉRICA</a></li>
-            <li><a href="Petshop/">MÉXICO</a></li>
-            <li><a href="clase_7/">COLOMBIA</a></li>
-            <li><a href="falso_cv/">ECONÓMICO</a></li>
-            <li><a href="heroes/">TELESHOW</a></li>
-            <li><a href="pizzeria/">DEPORTES</a></li>
-            <li><a href="pizzeria/">CULTURA</a></li>
-        </ul>
+            <ul>
+                <li><a href="Petshop/">AMÉRICA</a></li>
+                <li><a href="Petshop/">MÉXICO</a></li>
+                <li><a href="clase_7/">COLOMBIA</a></li>
+                <li><a href="falso_cv/">ECONÓMICO</a></li>
+                <li><a href="heroes/">TELESHOW</a></li>
+                <li><a href="pizzeria/">DEPORTES</a></li>
+                <li><a href="formulario/">CULTURA</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <ul>
-            <li><a href="Clase_5/">Clase 5</a></li>
-            <li><a href="Petshop/">Petshop</a></li>
-            <li><a href="clase_7/">Clase7</a></li>
-            <li><a href="falso_cv/">False cv</a></li>
-            <li><a href="heroes/">Heroes</a></li>
-            <li><a href="pizzeria/">Pizzeria</a></li>
-        </ul>
+        <nav class="borders-nav">
+            <ul>
+                <li><a href="Clase_5/">Clase 5</a></li>
+                <li><a href="Petshop/">Petshop</a></li>
+                <li><a href="clase_7/">Clase7</a></li>
+                <li><a href="falso_cv/">False cv</a></li>
+                <li><a href="heroes/">Heroes</a></li>
+                <li><a href="pizzeria/">Pizzeria</a></li>
+                <li><a href="formulario/">Formulario</a></li>
+            </ul>
+        </nav>
         <!--Clase-->
         <div class="contenedor">
         
-            <div class="noticias_principales">
+            <div class="flex-row">
 
-                <div>
-                    <h2>Se abre en Argentina la cadena de petshops Front Cat&Dog</h2>
-                    <h4>Desde</h4>
-                    <img src="https://via.placeholder.com/760x427/979797/808080 ?Text=ImagenPrincipal" alt="Front Cat&Dog">
+                <div class="border-noticia">
+                    <a href="Petshop/">
+                        <h2>Se abre en Argentina la cadena de petshops Front Cat&Dog, desde Agosto se podra acceder online</h2>
+                        <p>La camara Argentina de Petshops autorizo a FrontCat&Dog, a iniciar sus actividades desde Agosto. La tienda cuenta con 280 locales distribuidos por el mundo. La empresa busca cubrir 1100 puestos de trabajo.</p>
+                        <img src="img/petshop.JPG" alt="Front Cat&Dog" width="760" height="457">
+                    </a>
                 </div>
                 <div>
-                    <div>                    
-                        <h2>Se abre en Argentina la cadena de petshops Front Cat&Dog</h2>
-                        <h4>Desde</h4>
-                        <img src="https://via.placeholder.com/388x218/979797/808080 ?Text=ImagenPrincipal" alt="Front Cat&Dog">
+                    <div class="border-noticia"> 
+                        <a href="falso_cv/">                
+                            <h3>Conseguir trabajo en 2021: claves para que tu currículum sea más eficaz</h3>
+                            <p>Durante los primeros meses del año hay gran competencia en la búsqueda de empleo, por lo que se debe elaborar un documento que destaque entre el resto</p>
+                            <img src="img/cv.JPG" alt="CV" width="388" height="218">
+                        </a>
                     </div>
-                    <div>                    
-                        <h2>Se abre en Argentina la cadena de petshops Front Cat&Dog</h2>
-                        <h4>Desde</h4>
-                        <img src="https://via.placeholder.com/388x218/979797/808080 ?Text=ImagenPrincipal" alt="Front Cat&Dog">
+                    <div class="border-noticia">   
+                        <a href="pizzeria/">                 
+                            <h3>La famosa cadena de pizzas Pizza & Front abre su decima quinta sucursal en Paternal</h3>
+                            <p>Pizza & Front festejara la inaguracion de su decima quinta sucursal con pizzas al 50%.</p>
+                            <img src="img/pizzeria.JPG" alt="CV" width="388" height="218">
+                        </a>
                     </div>
                 </div>                
 
             </div>
 
             <div class="noticias_principales_viejas">
-                <div>
-                    <h3>Titulos</h3>
-                    <img src="https://via.placeholder.com/276x211/979797/808080 ?Text=ImagenPrincipal" alt="Front Cat&Dog">
-                </div>
-                <div>
-                    <h3>Titulos</h3>
-                    <img src="https://via.placeholder.com/276x211/979797/808080 ?Text=ImagenPrincipal" alt="Front Cat&Dog">
-                </div>
-                <div>
-                    <h3>Titulos</h3>
-                    <img src="https://via.placeholder.com/276x211/979797/808080 ?Text=ImagenPrincipal" alt="Front Cat&Dog">
+                <div class="flex-row">
+                    <div class="border-noticia">
+                        <a href="Clase_5/">
+                            <h3>Receta para un riquismo lemon pie</h3>
+                            <img src="img/lemon-pie 2.jpg" alt="Lemon-pie" width="376" height="211">
+                        </a>
+                    </div>
+                    <div class="border-noticia">
+                        <a href="clase_7/">
+                            <h3>¿Batman busca trabajo?</h3>
+                            <img src="img/cv_batman.JPG" alt="CV Batman" width="376" height="211">
+                        </a>
+                    </div>
+                    <div class="border-noticia">
+                        <a href="formulario/">
+                            <h3>Se habilito el formulario de inscripción</h3>
+                            <img src="img/registro.JPG" alt="Registro" width="376" height="211">
+                        </a>
+                    </div>
                 </div>
             </div>
 
             <div class="noticias_show">
                 <h2>TELESHOW</h2>
-                <div>
-                    <h3>Titulos</h3>
-                    <img src="https://via.placeholder.com/277x155/979797/808080 ?Text=ImagenPrincipal" alt="Front Cat&Dog">
-                </div>
-                <div>
-                    <h3>Titulos</h3>
-                    <img src="https://via.placeholder.com/277x155/979797/808080 ?Text=ImagenPrincipal" alt="Front Cat&Dog">
-                </div>
-                <div>
-                    <h3>Titulos</h3>
-                    <img src="https://via.placeholder.com/277x155/979797/808080 ?Text=ImagenPrincipal" alt="Front Cat&Dog">
-                </div>
-                <div>
-                    <h3>Titulos</h3>
-                    <img src="https://via.placeholder.com/277x155/979797/808080 ?Text=ImagenPrincipal" alt="Front Cat&Dog">
+                <div class="flex-row">
+                    <div>
+                        <h3>La gente canto "De pronto, SPAN" y emociono Luismi</h3>
+                        <img src="img/luis-miguel-suave_1.jpg" alt="Luis Miguel" width="277" height="155">
+                    </div>
+                    <div>
+                        <h3>REM: Modifico Losing my religion. "that's me in the BORDER"</h3>
+                        <img src="img/remm.jpg" width="277" height="155" alt="REM">
+                    </div>
+                    <div>
+                        <h3>Cada vez más gente no sabe donde esta la cabeza</h3>
+                        <img src="img/fxbmemeepcn51.jpg" width="277" height="155" alt="Front Cat&Dog">
+                    </div>
+                    <div>
+                        <h3>Titulos</h3>
+                        <img src="https://via.placeholder.com/277x155/979797/808080 ?Text=ImagenPrincipal" alt="Front Cat&Dog">
+                    </div>
                 </div>
             </div>
         </div>
