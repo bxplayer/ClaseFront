@@ -55,14 +55,10 @@ nav ul li a:before{
     width: 0%;
     height: 2px;
     /* alto y ancho=0 */
-    /* transition: ; */
+     transition: 0.5s linear ;
 }
 nav ul li a:hover::before{
-    /* ancho final */
-    
-    animation: hover-Menu 0.3s;
     width: 100%;
-
 }
 
 /* Barra redes */
@@ -82,7 +78,7 @@ nav ul li a:hover::before{
     background: var(--primary-color);
     padding: 10px 15px;
     text-decoration: none;
-    /* transition: ; */
+    /* transition: padding 3s linear; */
 }
 
 .social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
@@ -154,14 +150,6 @@ nav ul li a:hover::before{
      }
  }
 
- @keyframes hover-Menu{
-    0%{
-        width: 0%;
-    }
-     100%{
-        width: 100%;
-     }
- }
 
  @keyframes hover-social{
     0%{
