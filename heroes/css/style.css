@@ -26,14 +26,17 @@ main{
 
 #contenedor_cards{
     display: flex;
-    align-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+    
 }
 .card{
     background-color: #F3F3F3;
     position: relative;    
-    display: inline-block; 
+
     width:300px;        
-    z-index: -1px;  
+    z-index: -1;  
     padding-bottom: 20px;
 }
 
@@ -117,6 +120,7 @@ footer{
         gap: 10px;
         z-index: -1;
     }
+    
 }
 
 @media (max-width: 480px){
@@ -134,5 +138,7 @@ footer{
         gap: 10px;
         z-index: -1;
     }
+
+    
 }
 

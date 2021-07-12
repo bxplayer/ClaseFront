@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clases de Frontend</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
@@ -13,7 +14,7 @@
         <nav>
             <ul>
                 <li><a href="Petshop/">AMÉRICA</a></li>
-                <li><a href="Petshop/">MÉXICO</a></li>
+                <li><a href="clase_19_base_mesa/">MÉXICO</a></li>
                 <li><a href="clase_7/">COLOMBIA</a></li>
                 <li><a href="falso_cv/">ECONÓMICO</a></li>
                 <li><a href="heroes/">TELESHOW</a></li>
@@ -32,71 +33,76 @@
                 <li><a href="heroes/">Heroes</a></li>
                 <li><a href="pizzeria/">Pizzeria</a></li>
                 <li><a href="formulario/">Formulario</a></li>
+                <li><a href="clase_19_base_mesa/">Transitions</a></li>
             </ul>
         </nav>
         <!--Clase-->
         <div class="contenedor">
         
-            <div class="flex-row">
+            <section class="flex-row">
 
-                <div class="border-noticia">
+                <article class="border-noticia">
                     <a href="Petshop/">
                         <h2>Se abre en Argentina la cadena de petshops Front Cat&Dog, desde Agosto se podra acceder online</h2>
                         <p>La camara Argentina de Petshops autorizo a FrontCat&Dog, a iniciar sus actividades desde Agosto. La tienda cuenta con 280 locales distribuidos por el mundo. La empresa busca cubrir 1100 puestos de trabajo.</p>
                         <img src="img/petshop.JPG" alt="Front Cat&Dog" width="760" height="457">
                     </a>
-                </div>
+                </article>
                 <div>
-                    <div class="border-noticia"> 
+                    <article class="border-noticia"> 
                         <a href="falso_cv/">                
                             <h3>Conseguir trabajo en 2021: claves para que tu currículum sea más eficaz</h3>
                             <p>Durante los primeros meses del año hay gran competencia en la búsqueda de empleo, por lo que se debe elaborar un documento que destaque entre el resto</p>
                             <img src="img/cv.JPG" alt="CV" width="388" height="218">
                         </a>
-                    </div>
-                    <div class="border-noticia">   
+                    </article>
+                    <article class="border-noticia">   
                         <a href="pizzeria/">                 
                             <h3>La famosa cadena de pizzas Pizza & Front abre su decima quinta sucursal en Paternal</h3>
                             <p>Pizza & Front festejara la inaguracion de su decima quinta sucursal con pizzas al 50%.</p>
                             <img src="img/pizzeria.JPG" alt="CV" width="388" height="218">
                         </a>
-                    </div>
+                    </article>
                 </div>                
 
-            </div>
+            </section>
 
-            <div class="noticias_principales_viejas">
+            <section class="noticias_principales_viejas">
                 <div class="flex-row">
-                    <div class="border-noticia">
+                    <article class="border-noticia">
                         <a href="Clase_5/">
                             <h3>Receta para un riquismo lemon pie</h3>
                             <img src="img/lemon-pie 2.jpg" alt="Lemon-pie" width="376" height="211">
                         </a>
-                    </div>
-                    <div class="border-noticia">
+                    </article>
+                    <article class="border-noticia">
                         <a href="clase_7/">
                             <h3>¿Batman busca trabajo?</h3>
                             <img src="img/cv_batman.JPG" alt="CV Batman" width="376" height="211">
                         </a>
-                    </div>
-                    <div class="border-noticia">
+                    </article>
+                    <article class="border-noticia">
                         <a href="formulario/">
                             <h3>Se habilito el formulario de inscripción</h3>
                             <img src="img/registro.JPG" alt="Registro" width="376" height="211">
                         </a>
-                    </div>
+                    </article>
                 </div>
-            </div>
+            </section>
 
-            <div class="noticias_show">
+            <section class="banner">                
+                <a href="https://www.digitalhouse.com/" target="_blank"><img src="img/2021-banner-becas-santander-digital-house-a2047.jpg"></a>
+            </section>
+
+            <section class="noticias_cortas">
                 <h2>TELESHOW</h2>
                 <div class="flex-row">
                     <div>
-                        <h3>La gente canto "De pronto, SPAN" y emociono Luismi</h3>
+                        <h3>La gente canto "De pronto, SPAN" y emociono a Luis Miguel</h3>
                         <img src="img/luis-miguel-suave_1.jpg" alt="Luis Miguel" width="277" height="155">
                     </div>
                     <div>
-                        <h3>REM: Modifico Losing my religion. "that's me in the BORDER"</h3>
+                        <h3>REM: Modificó Losing my religion. "that's me in the BORDER"</h3>
                         <img src="img/remm.jpg" width="277" height="155" alt="REM">
                     </div>
                     <div>
@@ -108,9 +114,24 @@
                         <img src="https://via.placeholder.com/277x155/979797/808080 ?Text=ImagenPrincipal" alt="Front Cat&Dog">
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
 	
-    </main>    
+    </main>   
+    
+    <footer>
+        <div>
+            <ul>
+                <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-youtube"></i></a></li>                
+            </ul>
+            <h2>infrontend</h2>
+        </div>
+        <div>
+
+        </div>
+    </footer>
 </body>
 </html>

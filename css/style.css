@@ -1,16 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap');
 
+
+:root{
+    --color-logo : #EE880F;
+}
+
 body{
-    font-family: 'Noto Sans JP', sans-serif;
     box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;    
     margin: 0 auto;
     width: 60vw;
+
 }
+
 
 h1{
     font-size: 4rem;
-    color:#EE880F;
-    letter-spacing: 0.08rem;
+    color:var(--color-logo);    
     margin: 8px;
 }
 
@@ -25,7 +31,7 @@ header{
 }
 
 
-nav ul{
+ul{
     margin: 0 auto;
     padding: 10px;
     list-style: none;
@@ -33,7 +39,6 @@ nav ul{
     flex-direction: row;  
     justify-content: center;  
     gap:15px;    
-
     
 }
 
@@ -72,15 +77,43 @@ nav ul li a{
     gap:10px;
 }
 
-.noticias_show{    
+.noticias_cortas{    
     border-top: 2px solid dimgray;    
     margin-top: 20px;
 }
 
-.noticias_show h2{
+.noticias_cortas h2{
     color:#B10000;
 }
 
-.noticias_show h3{    
+.noticias_cortas h3{    
     font-size: 18px;
+}
+
+
+.banner{
+    text-align: center;
+}
+
+footer{
+    background-color: #f7f8f9;
+}
+
+footer > div {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+footer > div > h2 {
+    font-size: 36px;
+    color:var(--color-logo);
+    width: 100%;
+    text-align: right;
+    margin: 0px;    
+}
+
+footer > div > ul {
+    font-size: 26px;  
+    color: #666;      
 }

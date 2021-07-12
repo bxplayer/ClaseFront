@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div id="pre_header">
+            20% de descuento en todos los prodcutos!
+        </div>        
+    </header>
+    <div id="logo">
+        <img src="img/OBJECTS.png"><h1>Nombre Tienda</h1>
+    </div>    
+    <main>
+        
+            
+            <form method="POST">
+                <div>
+                    <h1>Añadí tu super!</h1>
+                    <p>Agregá tu personaje favorito completando las opciones.</p>
+                    <div>
+                        <div>
+                            <label for="nombre">*Nombre</label>
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido">
+                        </div>
+                        <div>
+                            <label for="especie">*Especie</label>
+                            <select name="especie" id="especie">
+                                <option>Seleccione un país</option>
+                                <option>Argentina</option>
+                                <option>Colombia</option>
+                                <option>Brasil</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+
+                    <div>
+                        <div>
+                            <label for="nombre">Fecha</label>
+                            <input type="date" name="fecha" id="fecha" placeholder="dd/mm/aaaa">
+                        </div>
+                        <div>
+                            <label for="foto">Agregar foto</label>
+                            <input type="file" name="foto" id="foto">
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <textarea placeholder="Descripción"></textarea>
+                        </div>
+                        <div>
+                            <h2>Poderes</h2>
+                            <ul>
+                                <li><input type="checkbox" id="volar" name="volar"> <label for="volar">Volar</label></li>
+                                <li><input type="checkbox" id="SuperInteligencia" name="SuperInteligencia"> <label for="SuperInteligencia">SuperInteligencia</label></li>
+                                <li><input type="checkbox" id="rayo_laser" name="rayo_laser"> <label for="rayo_laser">Vista de rayo láser</label></li>
+                                <li><input type="checkbox" id="Billetera" name="Billetera"> <label for="Billetera">Billetera gorda</label></li>                                
+                            </ul>
+                            <hr />
+                            <h2>Tipo de personaje</h2>
+                            <ul>
+                                <li><input type="radio" id="heroe_heroina" name="personaje"> <label for="heroe_heroina">Héroe / Heroina</label></li>
+                                <li><input type="radio" id="villano_villana" name="personaje"> <label for="villano_villana">Villano / Villana</label></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    
+                    <input type="mail" name="mail" id="mail" placeholder="Correo electrónico">
+                    <input type="password" name="password" id="password" placeholder="Contraseña">
+                    <select name="pais" id="pais">
+                        <option>Seleccione un país</option>
+                        <option>Argentina</option>
+                        <option>Colombia</option>
+                        <option>Brasil</option>
+                    </select>
+                    <div class="flex-row">
+                        <button type="submit" class="back-color-verde">Entrar</button>
+                        <button type="reset" class="back-color-gris">Resetear</button>
+                    </div>                    
+                    <p>¿Ya tenés una cuenta? <a href="index.html">Ingresar</a></p>
+                </div>                
+            </form>
+        
+    </main>
+    <footer>
+        Todos los derechos reservados a FRONT END 1
+    </footer>
+</body>
+</html>
