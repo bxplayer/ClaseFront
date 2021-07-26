@@ -1,0 +1,230 @@
+/*GENERALES*/
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px 0px;
+}
+
+h4, h5 {
+  margin: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 0px;
+}
+
+input {
+  padding: 8px;
+  border-radius: 8px;
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  padding: 8px;
+}
+
+/*Fin GENERALES*/
+#pre_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  color: #FFF;
+  font-size: 14px;
+  gap: 10px;
+}
+
+#pre_header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 10px;
+}
+
+/*Header*/
+header #header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F0A83E;
+}
+
+header #header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 20px;
+}
+
+header #header a {
+  color: white;
+}
+
+header #header > a {
+  display: none;
+}
+
+header #header > div {
+  padding: 0 10px;
+}
+
+header #header div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: whitesmoke;
+  gap: 5px;
+}
+
+header #header div span {
+  color: black;
+}
+
+header #header div img {
+  height: 20px;
+}
+
+/*Banner*/
+div#banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background-image: url("../img/bowl-and-pet-daities-on-green-background 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 409px;
+  margin-bottom: 10px;
+  padding: 0 20px;
+}
+
+div#banner h2 {
+  background-color: white;
+  padding: 8px 5px;
+}
+
+div#banner a {
+  background-color: #F0A83E;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 10px 15px;
+}
+
+/*Main*/
+main {
+  width: 60%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+main h5 {
+  color: #F0A83E;
+}
+
+main section > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main ul {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+main .destacados {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 10px;
+}
+
+main .destacados div {
+  background-color: #FBFAF6;
+}
+
+main input {
+  background-color: #3C2313;
+}
+
+/*Footer*/
+footer {
+  background-color: #3C2313;
+  color: white;
+}
+
+footer #suscribite {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F0A83E;
+  gap: 10px;
+  padding: 0 20px;
+}
+
+footer #post_footer {
+  text-align: center;
+}
+
+footer ul {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+/*# sourceMappingURL=style.css.map */

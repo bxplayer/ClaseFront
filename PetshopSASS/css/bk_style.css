@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+
+/*GENERALES*/
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 0px;
+}
+
+h4,h5{
+    margin: 8px;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+
+
+input{
+    padding: 8px;
+    border-radius: 8px;
+    border:none;
+}
+
+button{
+    border-radius: 8px;
+    border: none;
+    color:white;
+    padding: 8px;        
+}
+/*Fin GENERALES*/
+
+
+
+
+#pre_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color:#FFF;
+    font-size:14px;    
+    gap:10px;
+}
+
+#pre_header ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+
+/*Header*/
+header #header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0A83E;
+}
+
+header #header ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;    
+}
+
+
+header #header a{
+    color: white;
+}
+
+header #header > a{
+    display: none;
+}
+
+header > div{
+    padding: 0 10px;
+}
+
+#header div{
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    gap:5px;
+}
+
+#header div span{
+    color: black;
+}
+
+#header div img{
+    height: 20px;
+}
+
+
+/*Banner*/
+div#banner{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    background-image: url('../img/bowl-and-pet-daities-on-green-background\ 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 409px;
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+
+
+div#banner h2{
+    background-color: white;
+    padding: 8px 5px;
+}
+div#banner a{
+    background-color: #F0A83E;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+/*Main*/
+main{
+    width: 60%;
+    margin:0px auto;
+    text-align: center;
+}
+
+main h5{
+    color:#F0A83E;
+}
+
+main section > div{
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+main ul{    
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+main .destacados{    
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+main .destacados div{
+    background-color: #FBFAF6;
+}
+
+main input{
+    background-color: #3C2313;
+}
+/*Footer*/
+footer{
+    background-color: #3C2313;
+    color: white;    
+}
+footer #suscribite{
+    display: flex;    
+    align-items: center;
+    background-color: #F0A83E;  
+    gap:10px;
+    padding: 0 20px;  
+}
+
+footer #post_footer{
+    text-align: center;
+}
+
+footer ul{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+
+#suscribite{
+
+}
+
+#suscribite button{
+    
+    background-color: #3C2313;
+}
+#post_footer{
+    text-align: center;
+    background-color: black;
+    color:#FFF;
+    font-size:14px;    
+    gap:10px;
+}
+
+
+/*Break*/
+
+@media (max-width: 480px){
+    #pre_header{
+        display:none;
+    }
+
+    header #header{
+        flex-wrap: wrap;                
+    }
+    header #header > div{
+        font-size: 0.5rem;
+    }
+    header #header > div img{
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+
+    #header nav{
+        flex-direction: column;
+        display: none;
+    }
+
+    header #header > a{
+        display: initial;
+    }
+
+
+    div#banner{
+        align-items: center;
+    }
+
+    section h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    section > img{
+        height: 6rem;
+    }
+
+    footer #suscribite{
+        flex-direction: column;
+        gap:10px;        
+    }
+    footer ul{
+        flex-direction: column;        
+        align-items: center;
+    }
+}
+
+/*Fin Break*/
