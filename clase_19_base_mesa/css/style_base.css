@@ -90,7 +90,7 @@ nav ul li a:hover::before{
 .social ul li a:hover{
     padding: 10px 25px;
     background-color: black;
-    animation: hover-social 0.3s;
+    animation: hover-social 0.3s; 
     /* transform: ; */
     /* padding: ; */
 }
